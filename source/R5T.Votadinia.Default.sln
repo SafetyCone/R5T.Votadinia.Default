@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Votadinia.Default.Construction", "R5T.Votadinia.Default.Construction\R5T.Votadinia.Default.Construction.csproj", "{77EEDE28-E5DB-454C-AA0E-F1ADAF7A365C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Votadinia.Default.Construction", "R5T.Votadinia.Default.Construction\R5T.Votadinia.Default.Construction.csproj", "{77EEDE28-E5DB-454C-AA0E-F1ADAF7A365C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Votadinia.Default", "R5T.Votadinia.Default\R5T.Votadinia.Default.csproj", "{1F685DAC-54EF-4571-9B15-04A41E7C219E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Votadinia.Default", "R5T.Votadinia.Default\R5T.Votadinia.Default.csproj", "{1F685DAC-54EF-4571-9B15-04A41E7C219E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Votadinia.Default.Testing", "R5T.Votadinia.Default.Testing\R5T.Votadinia.Default.Testing.csproj", "{7C1CC39F-B9A5-4FB5-9ACF-ED4800190A7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Votadinia.Default.Testing", "R5T.Votadinia.Default.Testing\R5T.Votadinia.Default.Testing.csproj", "{7C1CC39F-B9A5-4FB5-9ACF-ED4800190A7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{828D2FF7-D0DD-4792-B8CE-260EDD12B720}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Votadinia.Base", "..\..\R5T.Votadinia.Base\source\R5T.Votadinia.Base\R5T.Votadinia.Base.csproj", "{BAC4EAE2-8472-4989-A812-C765D374B8E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{77EEDE28-E5DB-454C-AA0E-F1ADAF7A365C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{7C1CC39F-B9A5-4FB5-9ACF-ED4800190A7D}.Release|x64.Build.0 = Release|Any CPU
 		{7C1CC39F-B9A5-4FB5-9ACF-ED4800190A7D}.Release|x86.ActiveCfg = Release|Any CPU
 		{7C1CC39F-B9A5-4FB5-9ACF-ED4800190A7D}.Release|x86.Build.0 = Release|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Debug|x64.Build.0 = Debug|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Debug|x86.Build.0 = Debug|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Release|x64.ActiveCfg = Release|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Release|x64.Build.0 = Release|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Release|x86.ActiveCfg = Release|Any CPU
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAC4EAE2-8472-4989-A812-C765D374B8E1} = {828D2FF7-D0DD-4792-B8CE-260EDD12B720}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64937525-93B7-4215-9381-3F915C9079A5}
 	EndGlobalSection
 EndGlobal
